@@ -1,6 +1,6 @@
 {
   "name": "http-debug",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Simple http(s) request debugger.",
   "main": "index.js",
   "scripts": {

@@ -1,10 +1,10 @@
 # http-debug
 
-[![Build Status](https://travis-ci.org/jmervine/node-http-debug.png?branch=master)](https://travis-ci.org/jmervine/node-http-debug) &nbsp; [![Dependancy Status](https://david-dm.org/jmervine/node-http-debug.png)](https://david-dm.org/jmervine/node-http-debug) &nbsp; [![NPM Version](https://badge.fury.io/js/http-debug.png)](https://badge.fury.io/js/http-debug) &nbsp;  <iframe src="http://jmervine.github.io/npm-downloads-badge/badge.html?module=http-debug&name=false" allowtransparency="true" frameborder="0" scrolling="0" width="125" height="20" style="vertical-align: bottom"></iframe>I
+[![Build Status](https://travis-ci.org/jmervine/node-http-debug.png?branch=master)](https://travis-ci.org/jmervine/node-http-debug) &nbsp; [![Dependancy Status](https://david-dm.org/jmervine/node-http-debug.png)](https://david-dm.org/jmervine/node-http-debug) &nbsp; [![NPM Version](https://badge.fury.io/js/http-debug.png)](https://badge.fury.io/js/http-debug)
 
 
 ``` sh
-npm install github https://github.com/jmervine/node-http-debug.git
+npm install http-debug
 ```
 
 Usage:
