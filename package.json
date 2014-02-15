@@ -1,0 +1,30 @@
+{
+  "name": "http-debug",
+  "version": "0.0.1",
+  "description": "Simple http(s) request debugger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/http.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmervine/node-http-debug.git"
+  },
+  "keywords": [
+    "debug",
+    "debugging",
+    "debugger",
+    "http",
+    "https",
+    "request"
+  ],
+  "author": "Joshua P Mervine <joshua@mervine.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmervine/node-http-debug/issues"
+  },
+  "homepage": "https://github.com/jmervine/node-http-debug",
+  "devDependencies": {
+    "tape": "~2.4.2"
+  }
+}
