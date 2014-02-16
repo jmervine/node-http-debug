@@ -7,7 +7,7 @@ function httpDebug(proto) {
 
     // on states: true || 1 || 2
     // off states: false || 0
-    http.debug = false;
+    http.debug = parseInt(process.env.HTTP_DEBUG || 0, 10);
 
     http.__request = http.request;
 

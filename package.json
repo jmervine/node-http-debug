@@ -1,10 +1,10 @@
 {
   "name": "http-debug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple http(s) request debugger.",
   "main": "index.js",
   "scripts": {
-    "test": "tape ./test/http.js"
+    "test": "bash ./test/harness.sh"
   },
   "repository": {
     "type": "git",

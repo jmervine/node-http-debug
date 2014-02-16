@@ -14,7 +14,7 @@ var server = http.createServer(function (req, res) {
 
     // every time console.error is passed, record.
 
-    tape('http-debug', function (test) {
+    tape('http-debug: http', function (test) {
 
         // create harness for console.error testing
         var consoleMessage = [];

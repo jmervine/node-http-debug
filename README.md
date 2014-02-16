@@ -17,11 +17,14 @@ http.debug = 2;
 
 /****
  * debug states
- * - false : off (default state) 
- * - 0     : off
- * - true  : on (request, write, end)
- * - 1     : on
+ * - 0     : off     (default state)
+ * - 1     : on      (show request, write, end)
  * - 2     : verbose (on + error and socket event reporting)
+ *
+ * Also support `process.env.HTTP_DEBUG` at load time, which
+ * will overide default state, however, anything passed via
+ * `http.debug` at run time will cancel out
+ * `process.env.HTTP_DEBUG`.
  ****/
 
 // Make http requests as usual.
@@ -58,4 +61,13 @@ npm test
 
 No pull requests will be accepted unless tests are (added if need be and) passing.
 
+# Change Log
 
+### 0.1.1
+
+* Support for `process.env.HTTP_DEBUG`.
+* `https` test.
+
+### 0.1.0
+
+* Initial release.
