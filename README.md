@@ -17,7 +17,7 @@ http.debug = 2;
 
 /****
  * debug states
- * - false : off
+ * - false : off (default state) 
  * - 0     : off
  * - true  : on (request, write, end)
  * - 1     : on
