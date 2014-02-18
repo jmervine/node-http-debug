@@ -10,7 +10,7 @@ npm install http-debug
 Usage:
 
 ``` javascript
-var http = require('node-debug').http;
+var http = require('http-debug').http;
 // var https = require('node-debug').https;
 
 http.debug = 2;
