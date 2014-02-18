@@ -11,7 +11,7 @@ Usage:
 
 ``` javascript
 var http = require('http-debug').http;
-// var https = require('node-debug').https;
+// var https = require('http-debug').https;
 
 http.debug = 2;
 
