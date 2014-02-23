@@ -7,7 +7,13 @@ function httpDebug(proto) {
 
     // on states: true || 1 || 2
     // off states: false || 0
-    http.debug = parseInt(process.env.HTTP_DEBUG || 0, 10);
+    if (typeof process.env.HTTP_DEBUG === 'undefined' || process.env.HTTP_DEBUG === 'false') {
+        http.debug = 0;
+    } else if (process.env.HTTP_DEBUG === 'true') {
+        http.debug = 1;
+    } else {
+        http.debug = parseInt(process.env.HTTP_DEBUG, 10);
+    }
 
     http.__request = http.request;
 

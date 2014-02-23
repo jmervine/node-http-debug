@@ -1,6 +1,6 @@
 {
   "name": "http-debug",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple http(s) request debugger.",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/jmervine/node-http-debug",
   "devDependencies": {
-    "tape": "~2.4.2"
+    "tape": "~2.4.2",
+    "request-lite": "^2.33.1"
   }
 }
